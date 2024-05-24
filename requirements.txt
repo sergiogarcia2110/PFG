@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scikit-learn
+scipy
+minisom
+folium
+streamlit-folium
+openpyxl
