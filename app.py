@@ -15,11 +15,11 @@ from folium import plugins
 
 
 def cargar_datos():
-    data_original = pd.read_excel('TFG/datos/completo_codificado.xlsx')
+    data_original = pd.read_excel('completo_codificado.xlsx')
     return data_original
 
 def cargar_datos_total():
-    data_total = pd.read_excel('TFG/datos/completo_total.xlsx')
+    data_total = pd.read_excel('completo_total.xlsx')
     return data_total
 
 
