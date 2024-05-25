@@ -48,7 +48,7 @@ def entrenar_som(data_preprocessed):
     else:
         data_preprocessed_dense = data_preprocessed
 
-    params = {'x': 15, 'y': 15, 'sigma': 0.7, 'learning_rate': 0.7}
+    params = {'x': 15, 'y': 15, 'sigma': 0.7, 'learning_rate': 0.5}
     som = MiniSom(x=params['x'], y=params['y'], input_len=data_preprocessed_dense.shape[1], sigma=params['sigma'],
                   learning_rate=params['learning_rate'], random_seed=42)
     som.train_random(data_preprocessed_dense, 20000)
